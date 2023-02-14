@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: rgb(92, 93, 97);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.input{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: lightgray;
+  padding-right: 5px;
+  border-radius: 2px;
+  height: 55px;
+}
+
+.current-number {
+  font-size: 32px;
+}
+
+.previous-number {
+  color: #767676;
+  max-height: fit-content;
+}
+
+.clear {
+  color: #ffcbcb;
+  background-color: rgb(92, 93, 97);
+  border-color: #ffcbcb;
+}
+
+.delete {
+  color: #ffcbcb;
+  background-color: rgb(92, 93, 97);
+  border-color: #ffcbcb;
+}
+
+.number {
+  color: #6ef557;
+  background-color: rgb(92, 93, 97);
+  border-color: #6ef557;
+}
+
+.operator {
+  color: #91e4f7;
+  background-color: rgb(92, 93, 97);
+  border-color: #91e4f7;
+}
+
+.decimal {
+  color: #f9df18;
+  background-color: rgb(92, 93, 97);
+  border-color: #f9df18;
+}
+
+.equals {
+  color: #f2caff;
+  background-color: rgb(92, 93, 97);
+  border-color: #f2caff;
+}
+
+.clear:hover {
+  background-color: #ffcbcb;
+  color: black;
+}
+
+.delete:hover {
+  background-color: #ffcbcb;
+  color: black;
+}
+
+.number:hover {
+  background-color: #6ef557;
+  color: black;
+}
+
+.operator:hover {
+  background-color: #91e4f7;
+  color: black;
+}
+
+.decimal:hover {
+  background-color: #f9df18;
+  color: black;
+}
+
+.equals:hover {
+  background-color: #f2caff;
+  color: black;
+}
